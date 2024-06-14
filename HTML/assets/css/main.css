@@ -255,8 +255,8 @@ header #menu-btn:hover{
 }
 
 .home .image img{
-    height: 80rem;
-    width: 80rem;
+    height: 60rem;
+    width: 60rem;
     border-radius: 50% 50% 50% 50% / 30% 30% 70% 70% ;
     object-fit:cover;
 }
