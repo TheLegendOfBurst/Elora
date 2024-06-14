@@ -25,7 +25,7 @@
 :root{
     --purple: #fc0fc0;
     --black: #000000;
-    --white: #F7F5F2;
+    --white: #878788;
     --grey: #DFDFDE;
 }
 
@@ -255,8 +255,8 @@ header #menu-btn:hover{
 }
 
 .home .image img{
-    height: 40rem;
-    width: 40rem;
+    height: 80rem;
+    width: 80rem;
     border-radius: 50% 50% 50% 50% / 30% 30% 70% 70% ;
     object-fit:cover;
 }
@@ -332,6 +332,7 @@ header #menu-btn:hover{
 .about .image img{
     width: 100%;
     border: 1rem solid var(--purple);
+    border-radius: 50%;
 }
 
 .about .content{
