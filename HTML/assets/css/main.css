@@ -197,6 +197,7 @@ header .navbar a{
 header .navbar a:hover,
 header .navbar a.active{
     color: var(--purple);
+    text-decoration: underline;
 }
 
 header #menu-btn{
