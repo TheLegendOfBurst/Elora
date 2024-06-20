@@ -45,19 +45,17 @@
                     <form>
                         <div class="text-center mb-3">
 
-                            <!--
-
-                            -->
+                            <a href="https://www.facebook.com">
                             <button type="button" class="btn btn-link btn-floating mx-1">
                                 <i class="fab fa-facebook-f"></i>
                             </button>
 
+                            <a href="https://www.google.com">
                             <button type="button" class="btn btn-link btn-floating mx-1">
                                 <i class="fab fa-google"></i>
                             </button>
-
-
                         </div>
+                        
                         <div class="form-outline mb-4">
                             <input type="text" id="loginNome" class="form-control" placeholder="Digite seu Nome"
                                    required />
@@ -79,23 +77,27 @@
                             <input type="text" id="loginTelefone" class="form-control" placeholder="Digite seu Telefone"
                                    required />
                         </div>
-                        <!-- 2 column grid layout -->
+                        <!-- 2 column grid layout
                         <div class="row mb-4">
                             <div class="col-md-6 d-flex justify-content-center">
+                            -->
                                 <!-- Checkbox -->
 
                             </div>
 
                             <div class="col-md-6 d-flex justify-content-center">
                                 <!-- Simple link
-                                    <a href="#!">Esqueci a senha</a>
+                                 <a href="#!">Esqueci a senha</a>
                                 -->
 
                             </div>
                         </div>
 
                         <!-- Submit button -->
-                        <button type="button" id="send-button" class="nav-link active btn btn-primary btn-block" onclick="InserirUsuario()">Cadastrar</button>
+                        <div style="display: flex; justify-content: space-between;">
+                            <button type="button" id="send-button1" class="nav-link active btn btn-primary btn-block" style="flex: 1; margin-right: 5px;" onclick="InserirUsuario()">Cadastrar</button>
+                            <button type="button" id="send-button2" class="nav-link active btn btn-primary btn-block" style="flex: 1; margin-left: 5px;" onclick="window.location.href = 'index.html';">Voltar</button>
+                        </div>
 
                         <!-- Register buttons -->
 

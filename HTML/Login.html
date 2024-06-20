@@ -40,20 +40,23 @@
                 </li>
             </ul>
             <!-- Pills navs -->
+
             <!-- Pills content -->
             <div class="tab-content">
                 <div class="tab-pane fade show active" id="pills-login" role="tabpanel" aria-labelledby="tab-login">
                     <form>
                         <div class="text-center mb-3">
+
+                            <a href="https://www.facebook.com">
                             <button type="button" class="btn btn-link btn-floating mx-1">
                                 <i class="fab fa-facebook-f"></i>
                             </button>
 
+                            <a href="https://www.google.com">
                             <button type="button" class="btn btn-link btn-floating mx-1">
                                 <i class="fab fa-google"></i>
                             </button>
                         </div>
-
 
                         <!-- Email input -->
                         <div class="form-outline mb-4">
@@ -73,14 +76,16 @@
                             </div>
 
                             <div class="col-md-6 d-flex justify-content-center">
-                                <!-- Simple link 
-                                    <a href="#!">Esqueci a senha</a>
-                                -->
+                                <a href="#!">Esqueci a senha</a>
+                                
                             </div>
                         </div>
 
                         <!-- Submit button -->
-                        <button type="button" id="send-button" class="nav-link active btn btn-primary btn-block" onclick="ConsultaLogin ()">Entrar</button>
+                        <div style="display: flex; justify-content: space-between;">
+                        <button type="button" id="send-button" class="nav-link active btn btn-primary btn-block" style="flex: 1; margin-left: 5px;" onclick="ConsultaLogin ()">Entrar</button>
+                        <button type="button" id="send-button2" class="nav-link active btn btn-primary btn-block" style="flex: 1; margin-left: 5px;" onclick="window.location.href = 'index.html';">Voltar</button>
+                        </div>
 
                         <!-- Register buttons -->
 
