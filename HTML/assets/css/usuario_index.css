@@ -7,6 +7,8 @@
     --black: #000000;
     --white: #000000;
     --grey: #000000;
+    --purple:#fc0fc0;
+    --cinza:#575757;
    
 }
 
@@ -114,3 +116,24 @@ footer {
 label{
     color: var(--red);
 }
+
+/*--------------------- 2- Button CSS (Start) ---------------------*/
+.btn{
+    
+    
+    
+    color: var(--purple);
+    
+}
+
+.btn i{
+    padding-left: 1rem;
+}
+
+.btn:hover{
+    color: var(--purple);
+    background-color: var(--cinza);
+    cursor: pointer;
+}
+
+/*--------------------- 2- Button CSS (End) ---------------------*/
