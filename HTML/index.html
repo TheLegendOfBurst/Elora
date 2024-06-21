@@ -23,6 +23,7 @@
     <!-- Custom Stylesheets -->
     <link rel="stylesheet"  href="assets/css/main.css" />
     <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link rel="stylesheet" href="assets/css/submenu.css">
 
 </head>
 <body>
@@ -82,10 +83,34 @@
                 <i class="fa fa-phone-square fa-lg" aria-hidden="true" style="color: #fc0fc0;"></i>
                 <a href="#contact" style="margin-left: 10px;">Contato</a>
             </span>
-            <span style="display: flex; align-items: center; margin-right: 20px;">
-                <i class="fa fa-user" aria-hidden="true" style="color: #fc0fc0;"></i>
-                <a href="Login.html" style="margin-left: 10px;">Login</a>
-            </span>
+            <div class="dropdown" style="position: relative; display: inline-block;">
+                <span style="display: flex; align-items: center; margin-right: 20px;">
+                    <i class="fa fa-user" aria-hidden="true" style="color: #fc0fc0;"></i>
+                    <a href="Login.html" style="margin-left: 10px;">Login</a>
+                </span>
+                <div class="dropdown-content" style="display: none; position: absolute; background-color: #000000; width: 200px; box-shadow: 0px 8px 16px 0px #fc0fc0; z-index: 1; padding: 8px; border-radius: 3%;">
+                    <a href="#profile" style="color: #878788; padding: 7px; text-decoration: none; display: flex; align-items: center; margin: 5px;">
+                        <i class="fa fa-users" aria-hidden="true" style="color:#fc0fc0;margin-right: 8px;"></i>
+                        Usuarios
+                    </a>
+                    <a href="#settings" style="color: #878788; padding: 7px; text-decoration: none; display: flex; align-items: center; margin: 5px;">
+                        <i class="fa fa-calendar" aria-hidden="true" style="color:#fc0fc0;margin-right: 8px;"></i>
+                        Agendamento Admin
+                    </a>
+                    <a href="#settings" style="color: #878788; padding: 7px; text-decoration: none; display: flex; align-items: center; margin: 5px;">
+                        <i class="fa fa-calendar-plus" aria-hidden="true" style="color:#fc0fc0;margin-right: 8px;"></i>
+                        Agendamento User
+                    </a>
+                    <a href="#settings" style="color: #878788; padding: 7px; text-decoration: none; display: flex; align-items: center; margin: 5px;">
+                        <i class="fa fa-calendar" aria-hidden="true" style="color:#fc0fc0;margin-right: 8px;"></i>
+                        Cadastro Agendamento
+                    </a>
+                    <a href="#logout" style="color: #878788; padding: 7px; text-decoration: none; display: flex; align-items: center; margin: 5px;">
+                        <i class="fa fa-file-archive" aria-hidden="true" style="color:#fc0fc0;margin-right: 8px;"></i>
+                        Relatório
+                    </a>
+                </div>
+</div>
         </nav>
 
         <!-- Menubar -->
@@ -819,6 +844,18 @@
               }
           });
           e.preventDefault();
+        });
+    </script>
+
+    <!--SubMenu-->
+    <script>
+        // Script to handle the dropdown functionality
+        document.querySelector('.dropdown').addEventListener('mouseover', function () {
+            this.querySelector('.dropdown-content').style.display = 'block';
+        });
+
+        document.querySelector('.dropdown').addEventListener('mouseout', function () {
+            this.querySelector('.dropdown-content').style.display = 'none';
         });
     </script>
 
