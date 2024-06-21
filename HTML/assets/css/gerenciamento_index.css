@@ -97,6 +97,11 @@ section {
     background-color: var(--black);
 }
 
+.modal-footer{
+    background-color: var(--purple);
+
+}
+
 footer {
     max-height: 85px;
     padding-top: .8em;
