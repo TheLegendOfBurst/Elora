@@ -117,23 +117,18 @@ label{
     color: var(--red);
 }
 
-/*--------------------- 2- Button CSS (Start) ---------------------*/
-.btn{
-    
-    
-    
-    color: var(--purple);
-    
+/*--------------------------------------------------------------
+# Butao voltar
+--------------------------------------------------------------*/
+button{
+    background-color: #000000 !important;
+    border: none !important;
+    color: var(--purple) !important;
+    transition: .5s;
 }
 
-.btn i{
-    padding-left: 1rem;
+button:hover{
+    background-color: var(--black) !important;
+    color: var(--purple) !important;
+    border: 1px solid var(--purple) !important;
 }
-
-.btn:hover{
-    color: var(--purple);
-    background-color: var(--cinza);
-    cursor: pointer;
-}
-
-/*--------------------- 2- Button CSS (End) ---------------------*/
