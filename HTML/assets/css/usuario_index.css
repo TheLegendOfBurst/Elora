@@ -44,17 +44,17 @@ h6,
 
 a {
     text-decoration: none !important;
-    color: var(--red) !important;
+    color: var(--purple) !important;
 }
 
 p, td,th {
-    color: var(--red);
+    color: var(--purple);
 }
 
 input {
     width: 100%;
     padding: 10px;
-    border: 1px solid var(--white);
+    border: 1px solid var(--purple);
     border-radius: 50px;
 }
 
@@ -121,9 +121,9 @@ label{
 # Butao voltar
 --------------------------------------------------------------*/
 button{
-    background-color: #000000 !important;
+    background-color: #fc0fc0 !important;
     border: none !important;
-    color: var(--purple) !important;
+    color: var(--black) !important;
     transition: .5s;
 }
 
