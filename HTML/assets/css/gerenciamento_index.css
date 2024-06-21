@@ -87,18 +87,18 @@ section {
 }
 
 .modal-header{
-    background-color: var(--purple);
+    background-color: var(--black);
 
 }
 .modal-header h2{
-    color: var(--black);
+    color: var(--purple);
 }
 .modal-body{
     background-color: var(--black);
 }
 
 .modal-footer{
-    background-color: var(--purple);
+    background-color: #000000;
 
 }
 
