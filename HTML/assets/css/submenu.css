@@ -1,4 +1,4 @@
-:root{
+:root {
     --purple: #fc0fc0;
     --black: #000000;
     --white: #878788;
@@ -7,6 +7,20 @@
 }
 
 
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: var(--black);
+    color: var(--white);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3%;
+}
 
 .dropdown-content {
     display: none;
@@ -17,7 +31,7 @@
     z-index: 1;
     padding: 8px;
     border-radius: 3%;
-    right: 0; /* Alinha o submenu à direita */
+    right: -50px; /* Alinha o submenu mais à direita */
 }
 
 .dropdown-content a {
@@ -32,14 +46,14 @@
 
 .dropdown-content a:hover {
     background-color: var(--red) !important; /* Muda a cor do fundo para vermelho ao passar o mouse */
-    color: var(--black)!important; /* Muda a cor da letra para branco ao passar o mouse */
-    border:var(--red) solid 2px;    
+    color: var(--black) !important; /* Muda a cor da letra para preto ao passar o mouse */
+    border: var(--red) solid 2px;    
     border-radius: 3%;
     text-decoration: none !important;
 }
 
-.dropdown-content a:hover .fa{
-    color: var(--black)!important; /* Muda a cor do icone para branco ao passar o mouse */
+.dropdown-content a:hover .fa {
+    color: var(--black) !important; /* Muda a cor do ícone para preto ao passar o mouse */
     text-decoration: none;
 }
 
