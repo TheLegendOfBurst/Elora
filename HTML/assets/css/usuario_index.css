@@ -87,15 +87,18 @@ section {
     color: var(--red);
 }
 
-.modal-header, .modal-footer{
+/*.modal-header, .modal-footer{
     background-color: var(--red);
 
-}
+}*/
 .modal-header h1{
     color: var(--black);
 }
 .modal-body{
     background-color: var(--black);
+}
+.modal-footer{
+    background-color: #000000;
 }
 
 footer {
