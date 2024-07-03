@@ -176,7 +176,7 @@ header{
 }
 
 header.sticky{
-    border-bottom: 0.1rem solid var(--grey);
+    border-bottom: 0.1rem solid #fc0fc0;
     background: rgba(0, 0, 0, 0.8);
 }
 
